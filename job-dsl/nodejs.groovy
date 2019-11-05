@@ -13,7 +13,7 @@ job('RG NodeJS example') {
                          // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
     }
     steps {
-        // echo 'npm install'
+        // echo 'npm install' 
         bat 'C://tools//Jenkins//tools\jenkins.plugins.nodejs.tools.NodeJSInstallation//nodejs//npm.cmd install'
     }
 }
