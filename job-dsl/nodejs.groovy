@@ -13,6 +13,6 @@ job('RG NodeJS example') {
                          // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
     }
     steps {
-        bat'npm install'
+        bat 'npm install'
     }
 }
