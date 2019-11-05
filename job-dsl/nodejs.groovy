@@ -14,6 +14,6 @@ job('RG NodeJS example') {
     }
     steps {
         // echo 'npm install' 
-        bat 'C://tools//Jenkins//tools//jenkins.plugins.nodejs.tools.NodeJSInstallation//nodejs//npm.cmd install'
+        shell 'C://tools//Jenkins//tools//jenkins.plugins.nodejs.tools.NodeJSInstallation//nodejs//npm.cmd install'
     }
 }
